@@ -1,0 +1,21 @@
+{
+    "name": "baha",
+    "description": "baha",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action":
+    {
+        "default_popup": "main.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs", "scripting", "activeTab"
+    ],
+    "content_scripts": [
+    {
+        "matches": ["*://*.gamer.com.tw/*"],
+        "js": ["blocker.js"]
+    }],
+    "host_permissions": [
+        "*://*.gamer.com.tw/"]
+}
