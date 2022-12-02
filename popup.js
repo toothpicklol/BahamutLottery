@@ -54,10 +54,9 @@ async function loopFloor() {
         //getID(page)
         //console.log(page)
         var delay = 3000
-        if(page==1){
+        if (page == 1) {
             delay = 0
-        }
-        else if (page > 50) {
+        } else if (page > 50) {
             console.log("超過1000樓 啟用超慢速模式保護你的IP不被當成爬蟲")
             delay = 8000
         }
