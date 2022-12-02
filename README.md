@@ -27,10 +27,11 @@ Chrome>setting>Extensions>Developer mode>Load unpacked
 ![](1.png)
 
 輸入人數後開始抽選
-
-![](2.png)
-
 注意!有可能重複抽取跟抽到樓主，請自行判斷
 
-![](3.png)
+![](2.PNG)
+
+資格名單為全部不重複蓋樓之ID
+
+![](3.PNG)
 
