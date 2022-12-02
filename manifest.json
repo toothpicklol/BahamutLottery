@@ -11,11 +11,7 @@
     "permissions": [
         "tabs", "scripting", "activeTab"
     ],
-    "content_scripts": [
-    {
-        "matches": ["*://*.gamer.com.tw/*"],
-        "js": ["blocker.js"]
-    }],
+    
     "host_permissions": [
         "*://*.gamer.com.tw/"]
 }
