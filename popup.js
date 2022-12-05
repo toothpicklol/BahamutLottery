@@ -81,7 +81,7 @@ async function loopFloor() {
                         await getID(pageDoc)
                     }
                     if (ind == page) {
-                        console.log(uniArray(id_array, "id"))
+                        id_array=uniArray(id_array, "id")
                         document.getElementById("info").innerHTML = "中獎名單";
                         var node = document.createElement("button");
                         node.className = "button"
